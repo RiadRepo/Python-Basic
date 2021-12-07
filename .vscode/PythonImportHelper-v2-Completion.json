@@ -1,0 +1,118 @@
+[
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Area Of Shape",
+        "description": "Area Of Shape",
+        "peekOfCode": "radius = float (input(\"enter redius :\" ))\narea = 3.1416 * radius*radius\nprint (\"Area :\",area)",
+        "detail": "Area Of Shape",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Area Of Shape",
+        "description": "Area Of Shape",
+        "peekOfCode": "area = 3.1416 * radius*radius\nprint (\"Area :\",area)",
+        "detail": "Area Of Shape",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Formatting string",
+        "description": "Formatting string",
+        "peekOfCode": "num = 20 \nprint(type(num))\n#output Formating 20+30=50\nnum1=20\nnum2 =30\nprint(f\"{num1} + {num2} = {num1+num2}\")\n#buld in endline delete \nprint(\"Abdur Rahman.\",end=\" \")\nprint(\"01937091332\")",
+        "detail": "Formatting string",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Inner If",
+        "description": "Inner If",
+        "peekOfCode": "num1 = 10 \nnum2 =30\nnum3 =40\nif num1<num2:\n   if num2<num3:\n     print(num3) \n   else:\n     print(num2)\nelse :\n print(num1)",
+        "detail": "Inner If",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Logical Operator",
+        "description": "Logical Operator",
+        "peekOfCode": "num1 = 10 \nnum2 =30\nnum3 =40\n#and\nif num1<num2 and num3<num2 :\n    print(num2)\nelif num1>num2 and num1>num3 :\n    print(num1)\nelse:\n    print (num3)",
+        "detail": "Logical Operator",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Range",
+        "description": "Range",
+        "peekOfCode": "num = list(range(10))\nprint(num)\nprint(num[2])\nnum = list(range(5, 11))\nprint(num)\nnum = list(range(2, 101, 2))\nprint(num)",
+        "detail": "Range",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Range",
+        "description": "Range",
+        "peekOfCode": "num = list(range(5, 11))\nprint(num)\nnum = list(range(2, 101, 2))\nprint(num)",
+        "detail": "Range",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Range",
+        "description": "Range",
+        "peekOfCode": "num = list(range(2, 101, 2))\nprint(num)",
+        "detail": "Range",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Type Casting",
+        "description": "Type Casting",
+        "peekOfCode": "result = num1 +num2\nprint(\"result\",result)\nresult = num1 -num2\nprint(\"result\",result)\nresult = num1 *num2\nprint(\"result\",result)\nresult = num1 /num2\nprint(\"result\",result)",
+        "detail": "Type Casting",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Type Casting",
+        "description": "Type Casting",
+        "peekOfCode": "result = num1 -num2\nprint(\"result\",result)\nresult = num1 *num2\nprint(\"result\",result)\nresult = num1 /num2\nprint(\"result\",result)",
+        "detail": "Type Casting",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Type Casting",
+        "description": "Type Casting",
+        "peekOfCode": "result = num1 *num2\nprint(\"result\",result)\nresult = num1 /num2\nprint(\"result\",result)",
+        "detail": "Type Casting",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Type Casting",
+        "description": "Type Casting",
+        "peekOfCode": "result = num1 /num2\nprint(\"result\",result)",
+        "detail": "Type Casting",
+        "documentation": {}
+    }
+]
