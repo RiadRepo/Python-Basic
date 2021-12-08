@@ -60,10 +60,26 @@ for f in range(1, E + 1, 1):
     sum6 += 1 / f
 print(sum6)
 
-# 1*2*3*4*....*n
+# 1*2*3*4*....*n    factorial
 R = int(input("enter your Number sum number"))
 sum7 = 1
 
 for t in range(1, R + 1, 1):
     sum7 = sum7 * t
 print(sum7)
+
+# 1*3*5*7*...*n
+k = int(input("enter Your number 8:"))
+sum8 = 1
+
+for d in range(1, k + 1, 2):
+    sum8 *= d
+print(sum8)
+
+# 1^2*2^2*3^2*4^2*....*n^2
+R = int(input("enter your Number sum number"))
+sum9 = 1
+
+for j in range(1, R + 1, 1):
+    sum9 = sum9 * j * j
+print(sum9)
